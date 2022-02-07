@@ -1,12 +1,20 @@
 import styled from "styled-components";
 
 export const ProjectImgContainer = styled.div`
-  padding: 10px;
   img {
-    width: 80%;
+    width: 100%;
   }
   .alice-carousel__prev-btn {
     text-align: center;
+  }
+
+  .alice-carousel__dots-item:not(.__custom):hover,
+  .alice-carousel__dots-item:not(.__custom).__active {
+    background-color: #29282d;
+  }
+
+  .alice-carousel__dots-item:not(.__custom) {
+    background-color: #f1ede9;
   }
 `;
 

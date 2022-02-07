@@ -234,7 +234,7 @@ function App() {
         </Container>
       </BodyContainer>
       <img src="./images/top.svg" id="go_top" onClick={TopButtonHandler} />
-      <Footer>@ 2022 Soyeong Hwang</Footer>
+      <Footer>Copyright © 2022 - Soyeong Hwang</Footer>
     </>
   );
 }
