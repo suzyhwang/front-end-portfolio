@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/front-end-portfolio/static/css/main.6b89adae.css",
+    "main.js": "/front-end-portfolio/static/js/main.5cdb0acf.js",
+    "static/media/LeferiPointWhite.ttf": "/front-end-portfolio/static/media/LeferiPointWhite.15c4481947a9976c5762.ttf",
+    "static/media/LeferiPointBlack.ttf": "/front-end-portfolio/static/media/LeferiPointBlack.23814703f17db16af7a9.ttf",
+    "index.html": "/front-end-portfolio/index.html",
+    "main.6b89adae.css.map": "/front-end-portfolio/static/css/main.6b89adae.css.map",
+    "main.5cdb0acf.js.map": "/front-end-portfolio/static/js/main.5cdb0acf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b89adae.css",
+    "static/js/main.5cdb0acf.js"
+  ]
+}
