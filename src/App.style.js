@@ -101,6 +101,13 @@ export const ContentBox = styled.div`
       width: 200px;
     }
   }
+
+  @media screen and (max-width: 320px) {
+    width: ${(props) => (props.margin === "margin" ? "150px" : "none")};
+    #skill_img {
+      width: 150px;
+    }
+  }
 `;
 
 export const Footer = styled.footer`

@@ -157,6 +157,11 @@ function App() {
     },
   ];
 
+  const TopButtonHandler = (e) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
+
   return (
     <>
       <Header>
@@ -188,9 +193,9 @@ function App() {
           <Title>ABOUT</Title>
           <ContentBox>
             <div id="about_container">
-              {Aboutdata.map((data) => {
+              {Aboutdata.map((data, idx) => {
                 return data.link ? (
-                  <a href={data.link} target="_blank">
+                  <a href={data.link} target="_blank" key={idx}>
                     <About data={data} />
                   </a>
                 ) : (
@@ -204,9 +209,9 @@ function App() {
         <Container>
           <Title>SKILLS</Title>
           <div id="skill_container">
-            {Skillsdata.map((data) => {
+            {Skillsdata.map((data, idx) => {
               return (
-                <ContentBox width={"none"}>
+                <ContentBox width={"none"} key={idx}>
                   <div id="skill_title">{data.title}</div>
                   <div class="center">
                     <img src={data.img} id="skill_img" />
@@ -219,15 +224,16 @@ function App() {
         <div id="projects" class="space"></div>
         <Container>
           <Title>PROJECTS</Title>
-          {Projectdata.map((data) => {
+          {Projectdata.map((data, idx) => {
             return (
-              <ContentBox margin={"margin"}>
+              <ContentBox margin={"margin"} key={idx}>
                 <Project data={data} />
               </ContentBox>
             );
           })}
         </Container>
       </BodyContainer>
+      <img src="./images/top.svg" id="go_top" onClick={TopButtonHandler} />
       <Footer>@ 2022 Soyeong Hwang</Footer>
     </>
   );

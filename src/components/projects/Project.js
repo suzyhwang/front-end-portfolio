@@ -41,8 +41,8 @@ function Project({ data }) {
         <div>
           <ul id="work_ul">
             <span>담당업무</span>
-            {data.works.map((el) => {
-              return <li>{el}</li>;
+            {data.works.map((el, idx) => {
+              return <li key={idx}>{el}</li>;
             })}
           </ul>
         </div>

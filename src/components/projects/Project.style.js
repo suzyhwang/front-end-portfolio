@@ -33,6 +33,23 @@ export const ProjectContainer = styled.div`
     #project_descr {
       font-size: 12px;
     }
+    ul {
+      padding-inline-start: 15px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    #project_title {
+      font-size: 14px;
+    }
+    #project_descr {
+      font-size: 10px;
+    }
+    #work_ul {
+      text-align: center;
+    }
+    ul {
+      padding-inline-start: 0px;
+    }
   }
 `;
 

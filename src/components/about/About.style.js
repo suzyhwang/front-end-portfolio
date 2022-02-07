@@ -15,4 +15,13 @@ export const AboutContainer = styled.div`
   #about_descr {
     text-align: left;
   }
+
+  @media screen and (max-width: 320px) {
+    #about_img {
+      margin-right: 5px;
+      img {
+        width: 25px;
+      }
+    }
+  }
 `;
