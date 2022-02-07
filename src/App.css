@@ -10,7 +10,6 @@ html {
 body {
   margin: 0;
   padding: 0 20px;
-  background: #7d6461;
   background: #29282d;
 }
 
@@ -32,6 +31,14 @@ body {
     grid-template-columns: 100%;
     grid-template-areas: "github" "email" "blog" "phone";
     transition: 0.5s all;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #about_container {
+    font-size: 12px;
+    width: 100%;
+    margin: 30px;
   }
 }
 

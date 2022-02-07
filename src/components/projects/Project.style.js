@@ -26,6 +26,14 @@ export const ProjectContainer = styled.div`
       margin-top: 5px;
     }
   }
+  @media screen and (max-width: 450px) {
+    #project_title {
+      font-size: 18px;
+    }
+    #project_descr {
+      font-size: 12px;
+    }
+  }
 `;
 
 export const ProjectLinkContainer = styled.div`
