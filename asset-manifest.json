@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/front-end-portfolio/static/css/main.2d409acc.css",
-    "main.js": "/front-end-portfolio/static/js/main.83746b0b.js",
+    "main.css": "/front-end-portfolio/static/css/main.b9dbdef4.css",
+    "main.js": "/front-end-portfolio/static/js/main.891d9cd4.js",
     "static/media/LeferiPointWhite.ttf": "/front-end-portfolio/static/media/LeferiPointWhite.15c4481947a9976c5762.ttf",
     "static/media/LeferiPointBlack.ttf": "/front-end-portfolio/static/media/LeferiPointBlack.23814703f17db16af7a9.ttf",
     "index.html": "/front-end-portfolio/index.html",
-    "main.2d409acc.css.map": "/front-end-portfolio/static/css/main.2d409acc.css.map",
-    "main.83746b0b.js.map": "/front-end-portfolio/static/js/main.83746b0b.js.map"
+    "main.b9dbdef4.css.map": "/front-end-portfolio/static/css/main.b9dbdef4.css.map",
+    "main.891d9cd4.js.map": "/front-end-portfolio/static/js/main.891d9cd4.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d409acc.css",
-    "static/js/main.83746b0b.js"
+    "static/css/main.b9dbdef4.css",
+    "static/js/main.891d9cd4.js"
   ]
 }
