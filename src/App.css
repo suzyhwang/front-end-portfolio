@@ -23,6 +23,16 @@ body {
   grid-template-columns: 50% 50%;
   justify-items: center;
   padding: 15px 0;
+  grid-template-areas: "github email" "blog phone";
+}
+
+@media screen and (max-width: 950px) {
+  #about_container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: "github" "email" "blog" "phone";
+    transition: 0.5s all;
+  }
 }
 
 #skill_container {
@@ -59,4 +69,21 @@ a:active {
 
 #project_title {
   font-size: 1.5rem;
+}
+.github {
+  grid-area: github;
+}
+.blog {
+  grid-area: blog;
+}
+.email {
+  grid-area: email;
+}
+.phone {
+  grid-area: phone;
+}
+
+.space {
+  background-color: #29282d;
+  height: 34px;
 }

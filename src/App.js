@@ -8,30 +8,35 @@ import {
   Footer,
 } from "./App.style";
 import About from "./components/about/About";
+import { AboutContainer } from "./components/about/About.style";
 import Project from "./components/projects/Project";
 
 function App() {
   const Aboutdata = [
     {
       img: "./images/github.svg",
+      class: "github",
       title: "깃허브",
       descr: "suzyhwang",
       link: "https://github.com/suzyhwang",
     },
     {
       img: "./images/email.svg",
+      class: "email",
       title: "이메일",
       descr: "soyeongsuzyhwang@gmail.com",
       link: "mailto:soyeongsuzyhwang@gmail.com",
     },
     {
       img: "./images/blog.svg",
+      class: "blog",
       title: "블로그",
       descr: "https://mari-mo.tistory.com",
       link: "https://mari-mo.tistory.com",
     },
     {
       img: "./images/phone.svg",
+      class: "phone",
       title: "연락처",
       descr: "010-6466-1110",
       link: "tel:010-6466-1110",
@@ -178,7 +183,8 @@ function App() {
           <Title>황소영</Title>
           <div id="intro_title">프론트엔드 개발자 포트폴리오</div>
         </Container>
-        <Container id="about">
+        <div id="about" class="space"></div>
+        <Container>
           <Title>ABOUT</Title>
           <ContentBox>
             <div id="about_container">
@@ -194,7 +200,8 @@ function App() {
             </div>
           </ContentBox>
         </Container>
-        <Container id="skills">
+        <div id="skills" class="space"></div>
+        <Container>
           <Title>SKILLS</Title>
           <div id="skill_container">
             {Skillsdata.map((data) => {
@@ -209,7 +216,8 @@ function App() {
             })}
           </div>
         </Container>
-        <Container id="projects">
+        <div id="projects" class="space"></div>
+        <Container>
           <Title>PROJECTS</Title>
           {Projectdata.map((data) => {
             return (
@@ -220,7 +228,7 @@ function App() {
           })}
         </Container>
       </BodyContainer>
-      <Footer>Copyright @ 2022 Soyeong Hwang All Right Reserved.</Footer>
+      <Footer>@ 2022 Soyeong Hwang</Footer>
     </>
   );
 }

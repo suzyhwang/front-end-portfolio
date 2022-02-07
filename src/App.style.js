@@ -9,13 +9,14 @@ export const Header = styled.header`
   padding: 10px;
   z-index: 1;
   display: flex;
-  justify-content: flex-end;
-  padding-right: 100px;
+  justify-content: center;
+  align-items: center;
   background: #29282d;
   text-transform: uppercase;
   div {
     display: flex;
-    width: 60%;
+    max-width: 1260px;
+    width: 100%;
     justify-content: flex-end;
     margin-right: 50px;
   }
@@ -78,7 +79,7 @@ export const ContentBox = styled.div`
   height: ${(props) => (props.width === "none" ? "fit-content" : "")};
   background-color: white;
   border: 2px solid black;
-  box-shadow: rgb(167 167 167) 6px 6px;
+  box-shadow: #aca69f 6px 6px;
   text-align: center;
   #skill_img {
     width: 250px;

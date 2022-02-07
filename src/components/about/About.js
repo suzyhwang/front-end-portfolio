@@ -4,7 +4,7 @@ import { AboutContainer } from "./About.style";
 
 function About({ data }) {
   return (
-    <AboutContainer>
+    <AboutContainer className={data.class}>
       <div id="about_img">
         <img src={data.img}></img>
       </div>
