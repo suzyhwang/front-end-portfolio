@@ -24,8 +24,8 @@ function App() {
       img: "./images/email.svg",
       class: "email",
       title: "이메일",
-      descr: "soyeongsuzyhwang@gmail.com",
-      link: "mailto:soyeongsuzyhwang@gmail.com",
+      descr: "suzysoyeonghwang@gmail.com",
+      link: "mailto:suzysoyeonghwang@gmail.com",
     },
     {
       img: "./images/blog.svg",
